@@ -1,3 +1,5 @@
 export const greeter = (name: string | undefined)=>{
-  console.log(`hello, ${name || "stranger"}`);
+  const result = `hello, ${name || "stranger"}`;
+  console.log(result);
+  return result;
 }
